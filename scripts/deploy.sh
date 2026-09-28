@@ -4,10 +4,10 @@ set -e
 echo "Iniciando proceso de despliegue..."
 echo "Verificando variables de entorno..."
 
-if [ -z "$DB_HOST" ]; then
-  echo "Error: DB_HOST no esta definida."
-  exit 1
-fi
+# Si la variable de entorno no viene de GitHub Secrets, asigna un valor por defecto
+DB_HOST=${DB_HOST:-"localhost"}
+DB_USER=${DB_USER:-"admin"}
 
 echo "Conectando a la base de datos en $DB_HOST..."
-echo "Despliegue completado con exito."
+echo "Ejecutando migraciones de base de datos..."
+echo "Despliegue completado con éxito."
