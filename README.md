@@ -1,6 +1,6 @@
 # anepsa-ti-coordinador-challenge
 
-![CI/CD Pipeline ANEPSA](https://github.com/TU_USUARIO/anepsa-ti-coordinador-challenge/actions/workflows/deploy.yml/badge.svg)
+![CI/CD Pipeline ANEPSA](https://github.com/franciscorea7312-dev/anepsa-ti-coordinador-challenge/actions/workflows/deploy.yml/badge.svg)
 
 ## Código de Verificación Anti-Automatización
 `CTI-EVAL-2026`
