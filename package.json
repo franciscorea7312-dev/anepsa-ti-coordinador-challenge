@@ -1,0 +1,21 @@
+{
+  "name": "anepsa-ti-coordinador-challenge",
+  "version": "1.0.0",
+  "description": "![CI/CD Pipeline ANEPSA](https://github.com/TU_USUARIO/anepsa-ti-coordinador-challenge/actions/workflows/deploy.yml/badge.svg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscorea7312-dev/anepsa-ti-coordinador-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/franciscorea7312-dev/anepsa-ti-coordinador-challenge/issues"
+  },
+  "homepage": "https://github.com/franciscorea7312-dev/anepsa-ti-coordinador-challenge#readme"
+}
