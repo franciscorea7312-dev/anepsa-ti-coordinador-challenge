@@ -1,0 +1,137 @@
+[
+    {
+        "id": "TASK-101",
+        "titulo": "Configurar Nginx Hardening",
+        "responsable": "Carlos Perez",
+        "estado": "Hecho",
+        "story_points": 5,
+        "fecha_limite": "2026-09-25",
+        "dias_sin_movimiento": 0
+    },
+    {
+        "id": "TASK-102",
+        "titulo": "Migración de Base de Datos",
+        "responsable": "Maria Lopez",
+        "estado": "En progreso",
+        "story_points": 8,
+        "fecha_limite": "2026-09-26",
+        "dias_sin_movimiento": 4
+    },
+    {
+        "id": "TASK-103",
+        "titulo": "Crear Pipeline CI/CD GitHub Actions",
+        "responsable": "Carlos Perez",
+        "estado": "Hecho",
+        "story_points": 5,
+        "fecha_limite": "2026-09-30",
+        "dias_sin_movimiento": 1
+    },
+    {
+        "id": "TASK-104",
+        "titulo": "Implementar Healthcheck script",
+        "responsable": "Juan Gomez",
+        "estado": "Hecho",
+        "story_points": 3,
+        "fecha_limite": "2026-09-28",
+        "dias_sin_movimiento": 0
+    },
+    {
+        "id": "TASK-105",
+        "titulo": "Limpieza de historial Git (.env)",
+        "responsable": "Carlos Perez",
+        "estado": "Por hacer",
+        "story_points": 5,
+        "fecha_limite": "2026-09-29",
+        "dias_sin_movimiento": 0
+    },
+    {
+        "id": "TASK-106",
+        "titulo": "Pruebas QA de Autenticación",
+        "responsable": "Ana Martinez",
+        "estado": "En progreso",
+        "story_points": 3,
+        "fecha_limite": "2026-09-24",
+        "dias_sin_movimiento": 5
+    },
+    {
+        "id": "TASK-107",
+        "titulo": "Optimizacion de consultas SQL",
+        "responsable": "Maria Lopez",
+        "estado": "En progreso",
+        "story_points": 13,
+        "fecha_limite": "2026-10-02",
+        "dias_sin_movimiento": 1
+    },
+    {
+        "id": "TASK-108",
+        "titulo": "Documentación de APIs N8N",
+        "responsable": "Juan Gomez",
+        "estado": "Por hacer",
+        "story_points": 2,
+        "fecha_limite": "2026-10-01",
+        "dias_sin_movimiento": 0
+    },
+    {
+        "id": "TASK-109",
+        "titulo": "Monitoreo de logs en producción",
+        "responsable": "Ana Martinez",
+        "estado": "Hecho",
+        "story_points": 2,
+        "fecha_limite": "2026-09-23",
+        "dias_sin_movimiento": 0
+    },
+    {
+        "id": "TASK-110",
+        "titulo": "Refactorización de Modulo de Pagos",
+        "responsable": "Maria Lopez",
+        "estado": "Bloqueado",
+        "story_points": 8,
+        "fecha_limite": "2026-09-25",
+        "dias_sin_movimiento": 6
+    },
+    {
+        "id": "TASK-111",
+        "titulo": "Soporte a usuarios finales",
+        "responsable": "Juan Gomez",
+        "estado": "Hecho",
+        "story_points": 1,
+        "fecha_limite": "2026-09-26",
+        "dias_sin_movimiento": 0
+    },
+    {
+        "id": "TASK-112",
+        "titulo": "Implementación de Webhooks",
+        "responsable": "Carlos Perez",
+        "estado": "En progreso",
+        "story_points": 5,
+        "fecha_limite": "2026-09-29",
+        "dias_sin_movimiento": 2
+    },
+    {
+        "id": "TASK-113",
+        "titulo": "Auditoría de Roles RBAC",
+        "responsable": "Ana Martinez",
+        "estado": "Por hacer",
+        "story_points": 3,
+        "fecha_limite": "2026-10-03",
+        "dias_sin_movimiento": 0
+    },
+    {
+        "id": "TASK-114",
+        "titulo": "Diseño de Dashboard en Jira",
+        "responsable": "Juan Gomez",
+        "estado": "Hecho",
+        "story_points": 3,
+        "fecha_limite": "2026-09-25",
+        "dias_sin_movimiento": 0
+    },
+    {
+        "id": "TASK-115",
+        "titulo": "Configuración de Alertamiento Slack",
+        "responsable": "Carlos Perez",
+        "estado": "Hecho",
+        "story_points": 2,
+        "fecha_limite": "2026-09-26",
+        "dias_sin_movimiento": 0
+    }
+]
