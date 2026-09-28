@@ -1,4 +1,3 @@
-@'
 name: CI/CD Pipeline ANEPSA
 
 on:
@@ -59,4 +58,3 @@ jobs:
           curl -X POST -H 'Content-type: application/json' \
           --data '{"text":"❌ ERROR: El despliegue a Producción ha fallado."}' \
           ${{ secrets.SLACK_WEBHOOK_URL }}
-'@ | Set-Content -Path .github\workflows\deploy.yml -Encoding UTF8
