@@ -1,4 +1,4 @@
-Set-Content -Path ".github\workflows\deploy.yml" -Value 'name: CI/CD Pipeline ANEPSA
+name: CI/CD Pipeline ANEPSA
 
 on:
   push:
@@ -17,8 +17,8 @@ jobs:
       - name: Configurar Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '\''18'\''
-          cache: '\''npm'\''
+          node-version: '18'
+          cache: 'npm'
 
       - name: Instalacion limpia de dependencias
         run: npm ci
@@ -32,7 +32,7 @@ jobs:
   deploy:
     name: Despliegue a Produccion
     needs: test_and_build
-    if: github.ref == '\''refs/heads/main'\'' && github.event_name == '\''push'\''
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
       - name: Descargar codigo
@@ -51,13 +51,13 @@ jobs:
       - name: Notificar Exito en Slack
         if: success()
         run: |
-          curl -X POST -H '\''Content-Type: application/json'\'' \
-          --data '\''{"text":"✅ Despliegue exitoso en Producción para ANEPSA."}'\'' \
+          curl -X POST -H 'Content-Type: application/json' \
+          --data '{"text":"✅ Despliegue exitoso en Producción para ANEPSA."}' \
           "${{ secrets.SLACK_WEBHOOK_URL }}" || true
 
       - name: Notificar Fallo en Slack
         if: failure()
         run: |
-          curl -X POST -H '\''Content-Type: application/json'\'' \
-          --data '\''{"text":"❌ ERROR: El despliegue a Producción ha fallado."}'\'' \
-          "${{ secrets.SLACK_WEBHOOK_URL }}" || true' -Encoding UTF8
+          curl -X POST -H 'Content-Type: application/json' \
+          --data '{"text":"❌ ERROR: El despliegue a Producción ha fallado."}' \
+          "${{ secrets.SLACK_WEBHOOK_URL }}" || true
