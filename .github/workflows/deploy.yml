@@ -33,7 +33,7 @@ jobs:
     name: Despliegue a Producción
     needs: test_and_build
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Descargar código
         uses: actions/checkout@v3
