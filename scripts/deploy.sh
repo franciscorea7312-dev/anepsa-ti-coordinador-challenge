@@ -1,6 +1,13 @@
-New-Item -ItemType Directory -Path "scripts" -Force
-Set-Content -Path "scripts/deploy.sh" -Value '#!/bin/bash
-echo "Iniciando despliegue en Producción..."
-echo "Servidor BD: $DB_HOST"
-echo "Usuario BD: $DB_USER"
-echo "Despliegue completado con exito."' -Encoding UTF8
+#!/bin/bash
+set -e
+
+echo "Iniciando proceso de despliegue..."
+echo "Verificando variables de entorno..."
+
+if [ -z "$DB_HOST" ]; then
+  echo "Error: DB_HOST no esta definida."
+  exit 1
+fi
+
+echo "Conectando a la base de datos en $DB_HOST..."
+echo "Despliegue completado con exito."
