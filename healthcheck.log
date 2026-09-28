@@ -1,0 +1,16 @@
+2026-09-27 21:45:10 [ERROR] Notificación de alerta enviada: {
+  "event": "CRITICAL_ALERT",
+  "service_url": "http://localhost:9999/down",
+  "consecutive_failures": 3,
+  "status": "FAILED_AFTER_RESTART",
+  "timestamp": "2026-09-27T21:45:10.148953",
+  "action_required": "Intervenci\u00f3n manual requerida: El servicio sigue sin responder tras el intento de reinicio."
+}
+2026-09-27 21:55:00 [ERROR] Notificación de alerta enviada: {
+  "event": "CRITICAL_ALERT",
+  "service_url": "http://localhost:9999/down",
+  "consecutive_failures": 3,
+  "status": "FAILED_AFTER_RESTART",
+  "timestamp": "2026-09-27T21:55:00.051319",
+  "action_required": "Intervenci\u00f3n manual requerida: El servicio sigue sin responder tras el intento de reinicio."
+}
